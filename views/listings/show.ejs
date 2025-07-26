@@ -20,7 +20,7 @@
         <br>
     </div>
 
-    <% if(currUser && listing.owner && listing.owner._id && currUser._id && listing.owner._id.equals(currUser._id)) { %>
+
     <div class="btns">
         <a href="/listings/<%= listing._id %>/edit" 
             class="btn btn-dark col-1 offset-3 edit-btn"
@@ -32,14 +32,14 @@
         </form>
         
     </div>
-    <% } %>
+   
 
     
     <div class="col-8 offset-3 mb-3">
         <hr>
         <% if(currUser) { %>
         <h4>Leave a Review</h4>
-        <form action="/listings/<%= listing.id %>/reviews" method="POST"  novalidate class="needs-validation">
+        <form action="/listings/<%= listing._id %>/reviews" method="POST"  novalidate class="needs-validation">
             <div class="mb-3 mt-3">
                 <label for="rating" class="form-label">Rating</label>
                 <fieldset class="starability-slot">

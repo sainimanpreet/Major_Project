@@ -54,7 +54,7 @@ app.get("/", (req, res) => {
 
 const listingRouter = require("./routes/listings.js");
 const reviewRouter = require("./routes/review.js");
-const UserRouter = require("./routes/user.js");
+const userRouter = require("./routes/user.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
@@ -96,8 +96,8 @@ app.use((req, res, next) => {
 // });
 
 app.use("/listings", listingRouter);
-app.use("/listings/:id/reviews", reviewRouter);
-app.use("/", UserRouter);
+app.use("/listings/:listingId/reviews", reviewRouter);
+app.use("/", userRouter);
 
 
 //server side error handler middleware

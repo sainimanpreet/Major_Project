@@ -51,7 +51,7 @@ router.get("/:id", wrapAsync(async (req, res) => {
 
 //Create Route
 router.post("/", isloggedIn, validateListing, wrapAsync(async (req, res, next) => {
-        const newListing = new Listing(req.body.listing);
+        let newListing = new Listing(req.body.listing);
         newListing.owner = req.user._id;
         await newListing.save();
         req.flash("success", "New Listing Created!");
@@ -73,7 +73,7 @@ router.get("/:id/edit", isloggedIn, isOwner, wrapAsync(async (req, res) => {
 
 
 //Update Route
-router.put("/:id", validateListing, wrapAsync(async (req, res) => {
+router.put("/:id", isloggedIn, isOwner, validateListing, wrapAsync(async (req, res) => {
     let { id } = req.params;
     await Listing.findByIdAndUpdate(id, {...req.body.listing});
     req.flash("success", "Listing Updated!");

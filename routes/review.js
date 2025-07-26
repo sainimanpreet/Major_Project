@@ -32,13 +32,12 @@ router.post("/", isloggedIn, validateReview, wrapAsync(async (req, res) => {
         req.flash("error", "Listing not found!");
         return res.redirect("/listings");
     }
-    let newReview = new Review(req.body.review);
-    newReview.author = req.user._id;
-    
-    listing.reviews.push(newReview);
+  let review = new Review(req.body.review);
+review.author = req.user._id;
+listing.reviews.push(review);
+await review.save(); 
+await listing.save();
 
-    await newReview.save();
-    await listing.save();
     req.flash("success", "New Review Created!");
     res.redirect(`/listings/${listing._id}`);
 }));
