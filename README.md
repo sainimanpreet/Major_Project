@@ -13,9 +13,7 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 ## 🔗 Live Demo
 
 🌐 **Try it live →**  
-👉 [https://your-live-demo-url.com](https://your-live-demo-url.com)
-
-> 📝 Replace with your deployed link (Vercel / Render / Netlify)
+👉 https://major-project-c0fs.onrender.com
 
 ---
 
@@ -48,11 +46,9 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 
 <p align="center">
   <img src="https://github.com/sainimanpreet/Major_Project/blob/master/home.png?raw=true" width="400" alt="Home Page"/>
-  <img src="https://github.com/sainimanpreet/Major_Project/blob/master/listing.png?raw=true" width="400" alt="Login"/>
-    <img src="" width="400" alt="Login"/>
+  <img src="https://github.com/sainimanpreet/Major_Project/blob/master/listing.png?raw=true" width="400" alt="New Listing"/>
+    <img src="https://github.com/sainimanpreet/Major_Project/blob/master/login.png?raw=true" width="400" alt="Login"/>
 </p>
-
-> 📁 Store your images in `/screenshots` folder and update paths accordingly.
 
 ---
 
@@ -76,6 +72,9 @@ cd Major_Project
 # 3. Install all dependencies
 npm install
 ```
+
+---
+
 ## 🚀 Running the Application
 ### Make sure your .env file is set up before starting the server.
 ```bash
@@ -83,8 +82,11 @@ npm start
 ```
 ### App will be live at:
 ```bash
-📍 http://localhost:3000
+📍 localhost:8080/listings
 ```
+
+---
+
 ## 🗂️ Folder Structure
 ```bash
 Wanderlust/
@@ -100,6 +102,9 @@ Wanderlust/
 ├── package.json
 └── README.md
 ```
+
+--- 
+
 ## 🤝 Contributing
 ### Have a feature idea or want to fix a bug?
 ```bash
@@ -107,8 +112,12 @@ Wanderlust/
 ```
 ### All contributions are welcome 🙌
 
+---
+
 ## 📄 License
 ### MIT License © [Manpreet Saini]
+
+---
 
 ## 📬 Connect with Me
 ### 📧 Email: itsmanpreet643@gmail.com
