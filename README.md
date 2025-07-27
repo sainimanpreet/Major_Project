@@ -77,6 +77,11 @@ cd Major_Project
 npm install
 ```
 ## 🚀 Running the Application
+### Make sure your .env file is set up before starting the server.
 ```bash
 npm start
+```
+### App will be live at:
+```bash
+📍 http://localhost:3000
 ```
