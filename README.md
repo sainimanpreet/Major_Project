@@ -75,3 +75,8 @@ cd Major_Project
 
 # 3. Install all dependencies
 npm install
+```
+## 🚀 Running the Application
+```bash
+npm start
+```
