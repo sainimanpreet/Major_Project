@@ -52,7 +52,9 @@
 
 ---
 
-## 🛠️ Getting Started (Local Development)
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 
@@ -60,3 +62,10 @@
 git clone https://github.com/sainimanpreet/Major_Project
 cd Major_Project
 
+### 2️⃣ Install Dependencies
+```bash
+npm install
+
+
+
+```
