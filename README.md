@@ -1,71 +1,75 @@
-# 🌍 Wanderlust – Explore the World, One Stay at a Time
+# 📱 Major Project
 
-> A full-stack travel listing web app where users can explore, add, and review beautiful places to stay. Inspired by Airbnb. Built using Node.js, Express, MongoDB, Cloudinary, and EJS.
-
-![Wanderlust Banner](https://res.cloudinary.com/dddtnlpjt/image/upload/v1722000000/wanderlust/banner.jpg)
+This is a full-stack web application developed as part of our academic **Major Project**. It includes authentication, dynamic user interfaces, backend integration, and database connectivity. The application is fully responsive and follows modern development practices.
 
 ---
 
-## 🚀 Live Demo
+## 🔗 Live Demo
 
-🔗 [Click here to visit Wanderlust Live](https://wanderlust-production.up.railway.app)
+👉 [View Live Project](https://your-live-demo-url.com)
 
-> *Note: It might take a few seconds to load if the Railway server is asleep.*
+> ⚠️ *Replace the above link with your actual deployed URL (e.g., Vercel, Render, Netlify, etc.)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript *(Update with React, Tailwind etc. if used)*
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Version Control:** Git & GitHub
+- **Deployment:** *(e.g., Render, Vercel, Heroku — update accordingly)*
+
+---
+
+## ✨ Features
+
+- 🔐 User Authentication (Login / Signup)
+- 🧠 Dynamic Content Rendering
+- 🗂️ CRUD Operations
+- 📱 Fully Responsive Design
+- 🔄 RESTful API Integration
+- 📊 Dashboard / Admin Panel *(if applicable)*
+- 📁 File Upload / Download *(if implemented)*
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Home Page  
-![Home](https://res.cloudinary.com/dddtnlpjt/image/upload/v1722000000/wanderlust/homepage.jpg)
+> 📁 Add your screenshots to a `/screenshots` folder in the root of your project.
 
-### 🏡 Listing Page  
-![Listing](https://res.cloudinary.com/dddtnlpjt/image/upload/v1722000000/wanderlust/listing.jpg)
+### 🏠 Home Page
 
-### ➕ Create New Listing  
-![Create](https://res.cloudinary.com/dddtnlpjt/image/upload/v1722000000/wanderlust/create.jpg)
+![Home Page](screenshots/home.png)
 
----
+### 📋 Dashboard
 
-## 💡 Features
+![Dashboard](screenshots/dashboard.png)
 
-- 🌐 View travel listings with name, location, price, and image  
-- ✍️ Add your own stays with photo uploads via Cloudinary  
-- 💬 Leave and delete reviews on listings  
-- 🔐 User authentication (register/login/logout)  
-- 🧾 Backend validation and error handling  
-- 📷 Images hosted securely on Cloudinary
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+> 📝 Replace the image paths if your screenshots are in a different folder.
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Installation & Setup
 
-| Layer      | Technologies                  |
-|------------|-------------------------------|
-| Frontend   | HTML, CSS, Bootstrap, EJS     |
-| Backend    | Node.js, Express.js           |
-| Database   | MongoDB, Mongoose             |
-| Auth       | Passport.js, Express-Session  |
-| Image Hosting | Cloudinary                |
-| Dev Tools  | Nodemon, EJS-Mate             |
-| Deployment | Railway / Localhost           |
+### 📦 Prerequisites
 
----
+- Node.js installed on your system
+- MongoDB (local or cloud, like MongoDB Atlas)
+- Git
 
-## 🛠️ Getting Started
-
-Follow these steps to run the project locally:
-
-### 1️⃣ Clone the Repository
+### 🛠️ Installation Steps
 
 ```bash
-git clone https://github.com/sainimanpreet/Major_Project
+# Clone the repo
+git clone https://github.com/sainimanpreet/Major_Project.git
+
+# Navigate to project folder
 cd Major_Project
 
-### 2️⃣ Install Dependencies
-```bash
+# Install dependencies
 npm install
-
-
-
-```
