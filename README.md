@@ -47,7 +47,7 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="" width="400" alt="Home Page"/>
+  <img src="https://github.com/sainimanpreet/Major_Project/blob/master/home.png?raw=true" width="400" alt="Home Page"/>
   <img src="screenshots/login.png" width="400" alt="Login"/>
     <img src="screenshots/login.png" width="400" alt="Login"/>
 </p>
