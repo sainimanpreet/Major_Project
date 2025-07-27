@@ -47,9 +47,9 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="400" alt="Home Page"/>
-  <img src="screenshots/listing.png" width="400" alt="Listing"/>
+  <img src="" width="400" alt="Home Page"/>
   <img src="screenshots/login.png" width="400" alt="Login"/>
+    <img src="screenshots/login.png" width="400" alt="Login"/>
 </p>
 
 > 📁 Store your images in `/screenshots` folder and update paths accordingly.
@@ -85,3 +85,30 @@ npm start
 ```bash
 📍 http://localhost:3000
 ```
+## 🗂️ Folder Structure
+```bash
+Wanderlust/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   └── controllers/
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── .env
+├── package.json
+└── README.md
+```
+## 🤝 Contributing
+### Have a feature idea or want to fix a bug?
+```bash
+# Fork → Clone → Code → Pull Request
+```
+### All contributions are welcome 🙌
+
+## 📄 License
+### MIT License © [Manpreet Saini]
+
+## 📬 Connect with Me
+### 📧 Email: itsmanpreet643@gmail.com
