@@ -1,75 +1,77 @@
-# 📱 Major Project
+<h1 align="center">🌍 Wanderlust - Explore the World, One Stay at a Time 🏕️</h1>
 
-This is a full-stack web application developed as part of our academic **Major Project**. It includes authentication, dynamic user interfaces, backend integration, and database connectivity. The application is fully responsive and follows modern development practices.
+<p align="center">
+A sleek and modern Airbnb-style full-stack web app that lets users find, list, and explore dreamy destinations — all from one platform.
+</p>
+
+<p align="center">
+✨ MERN Stack • 🧭 Travel Vibes • 📦 CRUD • 🔐 Auth • ☁️ MongoDB
+</p>
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [View Live Project](https://your-live-demo-url.com)
+🌐 **Try it live →**  
+👉 [https://your-live-demo-url.com](https://your-live-demo-url.com)
 
-> ⚠️ *Replace the above link with your actual deployed URL (e.g., Vercel, Render, Netlify, etc.)*
+> 📝 Replace with your deployed link (Vercel / Render / Netlify)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript *(Update with React, Tailwind etc. if used)*
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Version Control:** Git & GitHub
-- **Deployment:** *(e.g., Render, Vercel, Heroku — update accordingly)*
+<div align="center">
+
+| Frontend        | Backend        | Database | Deployment |
+|-----------------|----------------|----------|------------|
+| HTML, CSS, JS *(or React?)* | Node.js + Express.js | MongoDB | Render / Vercel / Heroku |
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- 🔐 User Authentication (Login / Signup)
-- 🧠 Dynamic Content Rendering
-- 🗂️ CRUD Operations
-- 📱 Fully Responsive Design
-- 🔄 RESTful API Integration
-- 📊 Dashboard / Admin Panel *(if applicable)*
-- 📁 File Upload / Download *(if implemented)*
+✅ Fully Responsive UI  
+✅ User Authentication (Login/Signup)  
+✅ Explore listings across locations  
+✅ Add / Edit / Delete property listings  
+✅ Interactive dashboard  
+✅ RESTful API Integration  
+✅ Clean folder structure  
+✅ Travel-inspired UI
 
 ---
 
 ## 📸 Screenshots
 
-> 📁 Add your screenshots to a `/screenshots` folder in the root of your project.
+<p align="center">
+  <img src="screenshots/home.png" width="400" alt="Home Page"/>
+  <img src="screenshots/listing.png" width="400" alt="Listing"/>
+  <img src="screenshots/login.png" width="400" alt="Login"/>
+</p>
 
-### 🏠 Home Page
-
-![Home Page](screenshots/home.png)
-
-### 📋 Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### 🔐 Login Page
-
-![Login](screenshots/login.png)
-
-> 📝 Replace the image paths if your screenshots are in a different folder.
+> 📁 Store your images in `/screenshots` folder and update paths accordingly.
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 📦 Prerequisites
+### Prerequisites
 
-- Node.js installed on your system
-- MongoDB (local or cloud, like MongoDB Atlas)
+- Node.js
+- MongoDB (local or cloud)
 - Git
 
-### 🛠️ Installation Steps
+### Steps
 
 ```bash
-# Clone the repo
+# 1. Clone the repository
 git clone https://github.com/sainimanpreet/Major_Project.git
 
-# Navigate to project folder
+# 2. Move into the project directory
 cd Major_Project
 
-# Install dependencies
+# 3. Install all dependencies
 npm install
