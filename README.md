@@ -1,3 +1,5 @@
+---
+
 <h1 align="center">🌍 Wanderlust - Explore the World, One Stay at a Time 🏕️</h1>
 
 <p align="center">
@@ -115,6 +117,8 @@ Wanderlust/
 ---
 
 ## 📄 License
+
+---
 ### MIT License © [Manpreet Saini]
 
 ---
