@@ -23,9 +23,11 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 
 <div align="center">
 
+
 | Frontend        | Backend        | Database | Deployment |
 |-----------------|----------------|----------|------------|
 | HTML, CSS, JS *(or React?)* | Node.js + Express.js | MongoDB | Render / Vercel / Heroku |
+
 
 </div>
 
@@ -57,10 +59,10 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
-
 - Node.js
 - MongoDB (local or cloud)
 - Git
+
 
 ### Steps
 
@@ -77,6 +79,7 @@ npm install
 
 ---
 
+
 ## 🚀 Running the Application
 ### Make sure your .env file is set up before starting the server.
 ```bash
@@ -88,6 +91,7 @@ npm start
 ```
 
 ---
+
 
 ## 🗂️ Folder Structure
 ```bash
@@ -107,6 +111,7 @@ Wanderlust/
 
 --- 
 
+
 ## 🤝 Contributing
 ### Have a feature idea or want to fix a bug?
 ```bash
@@ -115,6 +120,7 @@ Wanderlust/
 ### All contributions are welcome 🙌
 
 ---
+
 
 ## 📄 License
 
