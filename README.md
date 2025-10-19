@@ -76,7 +76,7 @@ cd Major_Project
 # 3. Install all dependencies
 npm install
 ```
-
+now run the project at http://localhost:8080/listings
 ---
 
 
