@@ -12,6 +12,14 @@ A sleek and modern Airbnb-style full-stack web app that lets users find, list, a
 
 ---
 
+## 🔗 Live Demo
+
+🚀 **Live Application:**  
+👉 https://major-project-1-75yv.onrender.com
+
+> ⏳ Note: The app is hosted on Render (free tier), so the first load may take a few seconds.
+
+---
 
 ## 🛠️ Tech Stack
 
